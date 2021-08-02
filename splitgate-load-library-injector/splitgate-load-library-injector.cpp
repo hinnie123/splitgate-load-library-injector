@@ -70,7 +70,7 @@ uintptr_t find_address_for_patch(HANDLE handle, uintptr_t base)
 {
 	// this essentially is just a remote pattern scanner, but made a bit more interesting using c++ functions
 	// a more conventional method would be like so: 
-    // https://github.com/hinnie123/csgo-load-library-bypass-injector/blob/master/csgo-load-library-bypass-injector.cpp#L33
+	// https://github.com/hinnie123/csgo-load-library-bypass-injector/blob/master/csgo-load-library-bypass-injector.cpp#L33
 
 	IMAGE_DOS_HEADER dos_header;
 	IMAGE_NT_HEADERS nt_headers;
